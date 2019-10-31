@@ -1,0 +1,18 @@
+{
+  "format_version": 1,
+  "imports": [
+    {
+      "column_mappings" : { "MOVIEID" : "movieId",        "IMDBID" : "imdbId",        "TMDBID" : "tmdbId"
+      },
+      "import_settings" : {
+        "import_columns" : [ "MOVIEID", "IMDBID", "TMDBID"],
+        "include_filter" : [], "exclude_filter" : []
+      },
+      "source_data" : {
+        "data_type" : "CSV", "has_header" : true, "dialect"   : "HANA",
+        "file_name" : "aa.movielens1.db.data::links.csv"
+      },
+      "target_table" : "aa.movielens1.db.data::links"  
+    }
+     ]
+}
