@@ -48,7 +48,7 @@
         "data_type" : "CSV", "has_header" : true, "dialect"   : "HANA",
         "file_name" : "aa.movielens1.db.data::tags.csv"
       },
-      "target_table" : "aa.movielen1.db.data::tags"  
+      "target_table" : "aa.movielens1.db.data::tags"  
     }    
   ]
 }
