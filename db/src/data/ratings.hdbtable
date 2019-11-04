@@ -1,9 +1,9 @@
 COLUMN TABLE "aa.movielens1.db.data::ratings"(
     "USERID"     INTEGER CS_INT NOT NULL,
     "MOVIEID"    INTEGER CS_INT NOT NULL,
-    "RATING"     DOUBLE CS_DOUBLE,
+    "RATING"     Double cs_double,
     "TIMESTAMP"  INTEGER,
     PRIMARY KEY (
         "USERID", "MOVIEID"
     )
-);
+)
